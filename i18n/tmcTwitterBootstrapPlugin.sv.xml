@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+      <!-- General -->
+      <trans-unit id="1">
+        <source>Required.</source>
+        <target>Obligatoriskt.</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Invalid.</source>
+        <target>Ogiltig.</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>"%value%" is not an integer.</source>
+        <target>"%värde%" inte är ett heltal.</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>is empty</source>
+        <target>är tom</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>from</source>
+        <target>från</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>to</source>
+        <target>till</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>Created at</source>
+        <target>Skapad på</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>Updated at</source>
+        <target>Uppdaterad</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>developed by</source>
+        <target>utvecklad av</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>Administration area</source>
+        <target>Administration område</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Logout</source>
+        <target>Logga ut</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>No results</source>
+        <target>Inga resultat</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>Search</source>
+        <target>Sökning</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Reset filter</source>
+        <target>Töm filter</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>Choose an action</source>
+        <target>Välj en åtgärd</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>(page %%page%%/%%nb_pages%%)</source>
+        <target>(sidan %%page%%/%%nb_pages%%)</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>[0] No results|[1] 1 result|(1,+Inf] %1%results</source>
+        <target>[0] Inga resultat | [1] 1 resultat | (1, + Inf ] %1% resultat</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>A problem occurs when deleting the selected items as some items do not exist anymore.</source>
+        <target>Ett problem uppstod när du tar bort de markerade objekten eftersom vissa poster inte existerar längre.</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Checked</source>
+        <target>Kontrollerad</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>Unchecked</source>
+        <target>Omarkerad</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Are you sure?</source>
+        <target>Är du säker?</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Max per page</source>
+        <target>Max per sida</target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>Back to list</source>
+        <target>Tillbaka till listan</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>Invalid position.</source>
+        <target>Ogiltig position.</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>Object moved to position num.%d.</source>
+        <target>Objekt i position nr: %d. </target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>Object promoted.</source>
+        <target>Object promoted.</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>Object demoted.</source>
+        <target>Objekt degraderad.</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>Specify the new position</source>
+        <target>Ange den nya positionen</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>Show</source>
+        <target>Visa</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>Filter</source>
+        <target>Filtrera</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>Filters</source>
+        <target>Filter</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>Reset filter</source>
+        <target>Töm filter</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>Success</source>
+        <target>Utfört</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>Warning</source>
+        <target>Varning</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>Error</source>
+        <target>Fel</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>[0] no result|[1] 1 result|(1,+Inf] %1%results</source>
+        <target>[0] inga resultat|[1] 1 resultat|(1,+Inf] %1%resultat</target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>(page %%page%%/%%nb_pages%%)</source>
+        <target>(sidan %%sidan%%/%%nb_pages%%)</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>Choose an action</source>
+        <target>Välj en åtgärd</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>Go</source>
+        <target>Gå</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>Sidebar text</source>
+        <target>Sidolist text</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>Version history</source>
+        <target>Versionshistorik</target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>No versions found</source>
+        <target>Inga versioner hittats</target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>Remember</source>
+        <target>Kom ihåg</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>Username or E-Mail</source>
+        <target>Användarnamn eller E-post</target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>Password</source>
+        <target>Lösenord</target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>The username and/or password is invalid.</source>
+        <target>Det användarnamn och/eller lösenord är ogiltigt.</target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>Signin</source>
+        <target>Logga in</target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>Forgot your password?</source>
+        <target>Glömt ditt lösenord?</target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>Want to register?</source>
+        <target>Vill du registrera dig?</target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>Oops! The page you asked for is secure and you do not have proper credentials.</source>
+        <target>Hoppsan! Sidan du begärde är säker och du har inte rätt referenser.</target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>Logged in as</source>
+        <target>Inloggad som</target>
+      </trans-unit>
+      <trans-unit id="52">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="54">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="55">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="56">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="57">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="58">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="59">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="60">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="61">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="62">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="63">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="64">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="65">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="66">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="67">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="68">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="69">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="70">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="71">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="72">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="73">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="74">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="75">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="76">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="77">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="78">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="79">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="80">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="81">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="82">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="83">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="84">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="85">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="86">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="87">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="88">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="89">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="90">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="91">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="92">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="93">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="94">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="95">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="96">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="97">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="98">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="99">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="100">
+        <source></source>
+        
+      </trans-unit>
+      <trans-unit id="101">
+        <source>New</source>
+        <target>Ny</target>
+      </trans-unit>
+      <trans-unit id="102">
+        <source>Edit</source>
+        <target>Redigera</target>
+      </trans-unit>
+      <trans-unit id="103">
+        <source>Delete</source>
+        <target>Radera</target>
+      </trans-unit>
+      <trans-unit id="104">
+        <source>List</source>
+        <target>Lista</target>
+      </trans-unit>
+      <trans-unit id="105">
+        <source>Save</source>
+        <target>Spara</target>
+      </trans-unit>
+      <trans-unit id="106">
+        <source>Save and add</source>
+        <target>Spara och lägg till</target>
+      </trans-unit>
+      <trans-unit id="107">
+        <source>Cancel</source>
+        <target>Avbryt</target>
+      </trans-unit>
+
+      <!-- Filters -->
+      <trans-unit id="108">
+        <source>Reset</source>
+        <target>Återställ</target>
+      </trans-unit>
+      <trans-unit id="109">
+        <source>Filter</source>
+        <target>Filtrera</target>
+      </trans-unit>
+
+      <!-- List -->
+      <trans-unit id="110">
+        <source>No result</source>
+        <target>Inga resultat</target>
+      </trans-unit>
+      <trans-unit id="111">
+        <source>Actions</source>
+        <target>åtgärder</target>
+      </trans-unit>
+      <trans-unit id="112">
+        <source>(page %%page%%/%%nb_pages%%)</source>
+        <target>(sidan %%sidan%%/%%nb_pages%%)</target>
+      </trans-unit>
+      <trans-unit id="113">
+        <source>asc</source>
+        <target>stigande</target>
+      </trans-unit>
+      <trans-unit id="114">
+        <source>desc</source>
+        <target>fallande</target>
+      </trans-unit>
+
+      <!-- Pagination -->
+      <trans-unit id="115">
+        <source>First page</source>
+        <target>Första sidan</target>
+      </trans-unit>
+      <trans-unit id="116">
+        <source>Previous page</source>
+        <target>Föregående sida</target>
+      </trans-unit>
+      <trans-unit id="117">
+        <source>Next page</source>
+        <target>Nästa sida</target>
+      </trans-unit>
+      <trans-unit id="118">
+        <source>Last page</source>
+        <target>Sista sidan</target>
+      </trans-unit>
+
+      <!-- Form -->
+      <trans-unit id="119">
+        <source>The item was created successfully.</source>
+        <target>Posten har skapats.</target>
+      </trans-unit>
+      <trans-unit id="120">
+        <source>The item was updated successfully.</source>
+        <target>Artikeln har uppdaterats.</target>
+      </trans-unit>
+      <trans-unit id="121">
+        <source>The item was created successfully. You can add another one below.</source>
+        <target>Posten har skapats. Du kan lägga till en ny nedan.</target>
+      </trans-unit>
+      <trans-unit id="122">
+        <source>The item was updated successfully. You can add another one below.</source>
+        <target>Artikeln har uppdaterats. Du kan lägga till en ny nedan.</target>
+      </trans-unit>
+      <trans-unit id="123">
+        <source>The item has not been saved due to some errors.</source>
+        <target>Posten har inte sparats på grund av vissa fel.</target>
+      </trans-unit>
+      <trans-unit id="124">
+        <source>The item was deleted successfully.</source>
+        <target>Posten har raderats.</target>
+      </trans-unit>
+      <trans-unit id="125">
+        <source>You must at least select one item.</source>
+        <target>Du måste åtminstone välja ett objekt.</target>
+      </trans-unit>
+      <trans-unit id="126">
+        <source>You must select an action to execute on the selected items.</source>
+        <target>Du måste välja en åtgärd för de valda objekten.</target>
+      </trans-unit>
+      <trans-unit id="127">
+        <source>A problem occurs when deleting the selected items as some items do not exist anymore.</source>
+        <target>Ett problem uppstår när du tar bort de markerade objekten som vissa poster som inte existerar längre.
+        </target>        
+      </trans-unit>
+      <trans-unit id="128">
+        <source>The selected items have been deleted successfully.</source>
+        <target>De markerade objekten har tagits bort.</target>
+      </trans-unit>
+      <trans-unit id="129">
+        <source>A problem occurs when deleting the selected items.</source>
+        <target>Ett problem uppstår när du tog bort de markerade objekten.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
