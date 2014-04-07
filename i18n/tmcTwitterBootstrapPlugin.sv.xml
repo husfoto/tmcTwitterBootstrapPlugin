@@ -70,8 +70,8 @@
         <target>(sidan %%page%%/%%nb_pages%%)</target>
       </trans-unit>
       <trans-unit id="17">
-        <source>[0] No results|[1] 1 result|(1,+Inf] %1%results</source>
-        <target>[0] Inga resultat | [1] 1 resultat | (1, + Inf ] %1% resultat</target>
+        <source>[0] no result|[1] 1 result|(1,+Inf] %1% results</source>
+        <target>[0] Inga resultat|[1] 1 resultat|(1,+Inf] %1% resultat</target>
       </trans-unit>
       <trans-unit id="18">
         <source>A problem occurs when deleting the selected items as some items do not exist anymore.</source>
@@ -146,8 +146,8 @@
         <target>Fel</target>
       </trans-unit>
       <trans-unit id="36">
-        <source>[0] no result|[1] 1 result|(1,+Inf] %1%results</source>
-        <target>[0] inga resultat|[1] 1 resultat|(1,+Inf] %1%resultat</target>
+        <source>[0] No results|[1] 1 result|(1,+Inf] %1% results</source>
+        <target>[0] Inga resultat|[1] 1 resultat|(1,+Inf] %1% resultat</target>
       </trans-unit>
       <trans-unit id="37">
         <source>(page %%page%%/%%nb_pages%%)</source>
