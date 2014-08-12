@@ -63,4 +63,4 @@ all:
 #            csv uploads history:
 #              route: site_login_file
 #    footer:
-#      copyright:          "Tito Miguel Costa &copy; <?php echo date("Y") ?>"
+#      copyright:          "Tito Miguel Costa &copy; "

@@ -28,11 +28,13 @@
                         <?php if (!array_key_exists('dropdown', $menu)): ?>
                             <?php $name = $k; ?>
                             <?php $route = $menu['route']; ?>
-                            <?php if (!array_key_exists($route, $routes)): ?>
-                                <?php continue; ?>
-                            <?php endif; ?>
+                            <?php try {
+                                $url = url_for('@' . $route);
+                            } catch (Exception $e) {
+                                continue;
+                            } ?>
                             <?php $is_current_route = preg_match('/^'.$route.'/', $current_route) ?>
-                            <li class="<?php echo $is_current_route || $is_current_module ? 'active' : '' ?>"><a href="<?php echo url_for('@' . $route); ?>"><?php echo __($name) ?></a></li>
+                            <li class="<?php echo $is_current_route || $is_current_module ? 'active' : '' ?>"><a href="<?php echo $url; ?>"><?php echo __($name) ?></a></li>
                         <?php else: ?>
                             <?php $submenus = $menu['dropdown']; ?>
                             <li class="dropdown <?php echo $is_current_route || $is_current_module ? 'active' : '' ?>">
@@ -48,12 +50,14 @@
                                                 <?php continue; ?>
                                             <?php endif; ?>
                                         <?php endif; ?>
+                                        <?php try {
+                                            $url = url_for('@' . $route);
+                                        } catch (Exception $e) {
+                                            continue;
+                                        } ?>
 
-                                        <?php if (!array_key_exists($route, $routes)): ?>
-                                            <?php continue; ?>
-                                        <?php endif; ?>
                                         <?php $is_current_route = preg_match('/^'.$route.'/', $current_route) ?>
-                                        <li class="<?php echo $is_current_route ? 'active' : '' ?>"><a href="<?php echo url_for('@' . $route); ?>"><?php echo __($name) ?></a></li>
+                                        <li class="<?php echo $is_current_route ? 'active' : '' ?>"><a href="<?php echo $url; ?>"><?php echo __($name) ?></a></li>
                                         <?php if ($divider): ?>
                                             <li class="divider"></li>
                                         <?php endif; ?>
