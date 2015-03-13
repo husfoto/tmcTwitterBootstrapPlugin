@@ -46,7 +46,7 @@
                                         'choices' => array('15' => __('Max per page', null, 'tmcTwitterBootstrapPlugin'), 5 => 5, 10 => 10, 20 => 20, 50 => 50)
                                     ),
                                     array('class' => 'input-medium')); echo $select->render('max_per_page') ?]
-                        <input type="submit" class="btn btn-inverse btn-small" value="[?php echo __('Go', array(), 'tmcTwitterBootstrapPlugin') ?]" />
+                        <input type="submit" class="btn btn-inverse btn-mini" value="[?php echo __('Go', array(), 'tmcTwitterBootstrapPlugin') ?]" />
                     </div>
                 </form>
                 <div class="clearfix"></div>

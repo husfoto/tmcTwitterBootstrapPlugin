@@ -6,7 +6,7 @@
             </div>
             [?php if ($configuration->hasFilterForm()): ?]
             <div class="well">
-                <a class="btn" data-toggle="modal" href="#filters" ><i class="icon-search icon-black"></i> [?php echo __('Filter', null, 'tmcTwitterBootstrapPlugin') ?]</a>
+                <a class="btn btn-mini" data-toggle="modal" href="#filters" ><i class="icon-search icon-black"></i> [?php echo __('Filter', null, 'tmcTwitterBootstrapPlugin') ?]</a>
             </div>
             [?php endif; ?]
         </div>

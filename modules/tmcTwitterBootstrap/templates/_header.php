@@ -67,7 +67,13 @@
                         <?php endif; ?>
                     <?php endforeach; ?>
                 </ul>
-                <p class="navbar-text pull-right"><?php echo __('Logged in as', null, 'tmcTwitterBootstrapPlugin') ?> <a href="<?php echo url_for(sfConfig::get('app_tmcTwitterBootstrapPlugin_profile_route', '@homepage?username=').$sf_user->getGuardUser()->getUsername()) ?>"><?php echo $sf_user->getGuardUser() ?></a> | <a href="<?php echo url_for('@sf_guard_signout') ?>"><?php echo __('Logout', null, 'tmcTwitterBootstrapPlugin') ?></a></p>
+                <p class="navbar-text pull-right"> 
+                    <?php echo __('Logged in as', null, 'tmcTwitterBootstrapPlugin') ?> 
+                    <a href="<?php echo url_for(sfConfig::get('app_tmcTwitterBootstrapPlugin_profile_route', '@homepage?username=').$sf_user->getGuardUser()->getUsername()) ?>"><?php echo $sf_user->getGuardUser() ?></a>
+                    [<?php echo $sf_user->getGuardUser()->getAuthenticationType(); ?>] 
+                    | 
+                    <a href="<?php echo url_for('@sf_guard_signout') ?>"><?php echo __('Logout', null, 'tmcTwitterBootstrapPlugin') ?></a>
+                </p>
             </div>
             <?php endif ?>
         </div>

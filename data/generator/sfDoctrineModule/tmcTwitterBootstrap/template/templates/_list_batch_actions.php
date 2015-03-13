@@ -9,6 +9,6 @@
     [?php $form = new BaseForm(); if ($form->isCSRFProtected()): ?]
         <input type="hidden" name="[?php echo $form->getCSRFFieldName() ?]" value="[?php echo $form->getCSRFToken() ?]" />
     [?php endif; ?]
-    <input type="submit" class="btn btn-inverse btn-small" value="[?php echo __('Go', array(), 'tmcTwitterBootstrapPlugin') ?]" />
+    <input type="submit" class="btn btn-inverse btn-mini" value="[?php echo __('Go', array(), 'tmcTwitterBootstrapPlugin') ?]" />
 </div>
 <?php endif; ?>

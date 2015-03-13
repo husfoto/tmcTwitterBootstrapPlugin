@@ -1,5 +1,5 @@
 <?php foreach ($this->configuration->getValue('show.display') as $title => $fields): ?>
-    <table class="table table-bordered table-striped table-show" id="show_<?php echo $this->getModuleName() ?>">
+    <table class="table table-bordered table-condensed table-striped table-show" id="show_<?php echo $this->getModuleName() ?>">
     <?php if('NONE' !== $title): ?>
         <caption>[?php echo __('<?php echo $title ?>') ?]</caption>
     <?php endif ?>

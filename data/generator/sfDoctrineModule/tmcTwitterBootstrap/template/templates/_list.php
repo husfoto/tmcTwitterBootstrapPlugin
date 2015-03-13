@@ -6,7 +6,7 @@
     [?php $results = $pager->getResults()->getRawValue() ?]
     [?php $modelname = get_class($results[0]) ?]
 
-    <table class="datatable table table-bordered table-striped" id="table_<?php echo sfInflector::underscore($this->getModuleName()) ?>" style="margin-top: 5px !important;">
+    <table class="datatable table table-condensed table-bordered table-striped" id="table_<?php echo sfInflector::underscore($this->getModuleName()) ?>" style="margin-top: 5px !important;">
         <thead>
             <tr>
             <?php if ($this->configuration->getValue('list.batch_actions')): ?>

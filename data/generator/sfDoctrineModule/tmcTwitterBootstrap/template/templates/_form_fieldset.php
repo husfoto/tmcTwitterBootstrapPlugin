@@ -3,6 +3,7 @@
 [?php endif; ?]
 <fieldset id="sf_fieldset_[?php echo preg_replace('/[^a-z0-9_]/', '_', strtolower($fieldset)) ?]">
     [?php foreach ($fields as $name => $field): ?]
+        [?php if ($field->getConfig('credentials') && !$sf_user->hasCredential($field->getConfig('credentials'))) continue ?]
         [?php if ((isset($form[$name]) && $form[$name]->isHidden()) || (!isset($form[$name]) && $field->isReal())) continue ?]
         [?php include_partial('<?php echo $this->getModuleName() ?>/form_field', array(
             'name'       => $name,
