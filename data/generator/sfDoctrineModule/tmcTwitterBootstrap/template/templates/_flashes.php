@@ -21,3 +21,10 @@
     </div>
     [?php $sf_user->setAttribute('error', 'true', 'symfony/user/sfUser/flash/remove') ?]
 [?php endif; ?]
+
+[?php if ($sf_user->hasFlash('info')): ?]
+    <div class="alert alert-info">
+        [?php echo __($sf_user->getFlash('info'), array(), '<?php echo $this->getI18nCatalogue() ?>') ?]
+    </div>
+    [?php $sf_user->setAttribute('info', 'true', 'symfony/user/sfUser/flash/remove') ?]
+[?php endif; ?]

@@ -1,5 +1,5 @@
 <?php include_partial('tmcTwitterBootstrap/assets') ?>
-<?php include_component('tmcTwitterBootstrap', 'header') ?>
+
 
 <div class="container-fluid">
     <div class="row-fluid">

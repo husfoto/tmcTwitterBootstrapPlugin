@@ -1,7 +1,7 @@
 <?php use_helper('I18N') ?>
 
 <?php include_partial('tmcTwitterBootstrap/assets') ?>
-<?php include_component('tmcTwitterBootstrap', 'header') ?>
+
 
 <div id="login" class="container">
     <div class="hero-unit">

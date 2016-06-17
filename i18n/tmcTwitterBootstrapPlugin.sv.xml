@@ -151,7 +151,7 @@
       </trans-unit>
       <trans-unit id="37">
         <source>(page %%page%%/%%nb_pages%%)</source>
-        <target>(sidan %%sidan%%/%%nb_pages%%)</target>
+        <target>(sidan %%page%%/%%nb_pages%%)</target>
       </trans-unit>
       <trans-unit id="38">
         <source>Choose an action</source>
@@ -427,7 +427,7 @@
       </trans-unit>
       <trans-unit id="106">
         <source>Save and add</source>
-        <target>Spara och lägg till</target>
+        <target>Spara och lägg till ny</target>
       </trans-unit>
       <trans-unit id="107">
         <source>Cancel</source>
@@ -455,7 +455,7 @@
       </trans-unit>
       <trans-unit id="112">
         <source>(page %%page%%/%%nb_pages%%)</source>
-        <target>(sidan %%sidan%%/%%nb_pages%%)</target>
+        <target>(sidan %%page%%/%%nb_pages%%)</target>
       </trans-unit>
       <trans-unit id="113">
         <source>asc</source>
